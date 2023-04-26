@@ -1,1 +1,35 @@
-<!-- replace the contents of this file with your zyLab solution -->
+<!DOCTYPE html>
+<html lang="en">
+<title>Join a social network</title>
+<link rel="stylesheet" href="styles.css">
+
+<body>
+   <h1>Join a social network</h1>
+   
+   <form method="post" action="form.php" enctype="multipart/form-data">
+      <div>
+         <label for="fullName">Full name:</label>
+         <input type="text" name="fullName" id="fullName" required>
+      </div>
+      <div>
+         <label for="email">Email address:</label>
+         <input type="email" name="email" id="email" required>
+      </div>
+      <div>
+         <label for="about">About you:</label>
+         <textarea name="about" id="about" rows="3" cols="50" required></textarea>
+      </div>
+      <div>
+         <label for="picture">Photo:</label>
+         <input type="file" name="picture" id="picture" required>
+      </div>
+      <div>
+         <input type="submit">
+      </div>
+      
+
+   </form>
+   
+</body>
+
+</html>
